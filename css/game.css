@@ -1,0 +1,26 @@
+/* General reset and styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    overflow: hidden;
+    -webkit-touch-callout: none; /* Disable callout on mobile devices */
+    -webkit-user-select: none; /* Disable text selection on mobile devices */
+    -moz-user-select: none; /* Disable text selection on mobile devices */
+    -ms-user-select: none; /* Disable text selection on mobile devices */
+    user-select: none; /* Disable text selection on mobile devices */
+    touch-action: none; /* Prevent zooming on double-tap */
+}
+
+canvas {
+    background: #000;
+    touch-action: none; /* Prevent zooming and scrolling on touch devices */
+}
