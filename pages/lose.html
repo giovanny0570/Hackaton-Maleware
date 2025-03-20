@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../message.css">
+</head>
+<body>
+    <h1>je bent je data verloren...</h1>
+    <div id="message">
+        <div>
+            <p>Je moet niet zomaar op een link klikken omdat het gevaarlijk kan zijn. Vaak worden links gebruikt in phishingpogingen om persoonlijke informatie, zoals je wachtwoorden of bankgegevens, te stelen. Ook kunnen schadelijke programma's zoals virussen of malware je apparaat infecteren. Het is belangrijk om altijd goed te controleren of een link betrouwbaar is, vooral als het een onbekende afzender betreft of je wordt gevraagd om persoonlijke gegevens in te vullen. Veilig internetgebruik begint bij voorzichtigheid!</p>
+            <!-- Button to redirect to another page -->
+            <button id="redirectButton">Meer informatie? klik hier!</button>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to handle redirection when the button is clicked
+        document.getElementById('redirectButton').addEventListener('click', function() {
+            window.location.href = 'informatie.html'; // Redirect to another-page.html
+        });
+    </script>
+</body>
+</html>
