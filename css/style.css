@@ -1,1 +1,100 @@
-dfsdf
+body {
+    margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .knop {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .btncon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100%;
+        margin-bottom: 100%;
+    }
+
+    .formscontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        width: 50%;
+        max-width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+        background-color: #fff;
+    }
+
+    .formscontainer input,
+    .formscontainer button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .formscontainer button {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+        /* Reset CSS */
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+    
+        /* Container */
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+        }
+    
+        /* Header */
+        .header {
+            background-color: #c46565;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+    
+        /* Content */
+        .content {
+            padding: 20px;
+            color: #333333;
+        }
+    
+        /* Footer */
+        .footer {
+            background-color: #f4f4f4;
+            color: #777777;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+        }
+    
+        /* Button */
+        .emailbtn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            background-color: #cb1c76;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+}
