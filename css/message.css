@@ -5,25 +5,25 @@ h1 {
     font-size: 2em;
     color: #1aff00;
 }
-
-body{
+ 
+body {
     background-color: #000;
+    margin: 0;
+    height: 100vh;
 }
-
+ 
 #message {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 25px;
-    width: 300px;
-
+    width: 100%;
 }
+ 
 p {
+    color: #1aff00;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-
-p{color: #1aff00;}
